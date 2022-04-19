@@ -3,7 +3,7 @@ package ar.edu.unju.edm;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import ar.edu.unju.edm.model.Punto6;
+import ar.edu.unju.edm.model.Punto7;
 
 @SpringBootApplication
 public class Tp01JosueVirreyraApplication {
@@ -12,10 +12,10 @@ public class Tp01JosueVirreyraApplication {
 		SpringApplication.run(Tp01JosueVirreyraApplication.class, args);
 		
 		
-		Punto6 apunto6 = new Punto6();
-		apunto6.setNum(6);
-			System.out.println(apunto6.StatuStudent());
+		Punto7 apunto7 = new Punto7();
 		
+		int[] newarray = apunto7.CreateNumericalSeq();
+		apunto7.PrintNumSeq(newarray);
 
 	}
 	

@@ -11,7 +11,7 @@ import ar.edu.unju.edm.model.Punto6;
 public class Punto6Controller {
 
 @GetMapping("/resolverPunto6")
-public String getPunto5Page( @RequestParam (name = "num") int num, Model model ) {
+public String getPunto6Page( @RequestParam (name = "num") int num, Model model ) {
 	Punto6 aPunto6 = new Punto6();
 	aPunto6.setNum(num);
 		model.addAttribute("Punto6", aPunto6.StatuStudent());
