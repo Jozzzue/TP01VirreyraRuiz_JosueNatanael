@@ -3,7 +3,7 @@ package ar.edu.unju.edm;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import ar.edu.unju.edm.model.Punto8;
+import ar.edu.unju.edm.model.Punto12;
 
 @SpringBootApplication
 public class Tp01JosueVirreyraApplication {
@@ -12,10 +12,11 @@ public class Tp01JosueVirreyraApplication {
 		SpringApplication.run(Tp01JosueVirreyraApplication.class, args);
 		
 		
-		Punto8 apunto8 = new Punto8();
+		Punto12 apunto12 = new Punto12();
 		
-		int[] newarray = apunto8.SeqMultiples4();
-		apunto8.PrintSeqMult(newarray);;
+		apunto12.setHeight(10);
+		System.out.print(apunto12.CalculateTime());
+		
 
 	}
 	
