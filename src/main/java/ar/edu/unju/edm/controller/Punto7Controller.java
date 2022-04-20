@@ -6,7 +6,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
-import ar.edu.unju.edm.model.Punto6;
 import ar.edu.unju.edm.model.Punto7;
 
 @Controller

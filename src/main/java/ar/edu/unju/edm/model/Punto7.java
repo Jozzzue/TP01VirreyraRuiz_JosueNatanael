@@ -1,5 +1,8 @@
 package ar.edu.unju.edm.model;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Punto7 {
 
 	private int ocup;
@@ -31,8 +34,6 @@ public class Punto7 {
 		int i;
 		  for(i=1;i<=ocup;i++)
 			  System.out.print(array[i]+ " ");
-		  /*for(i=19;i>=0;i--)
-			  System.out.print(array[i]+ " ");*/
 	}
 	
 }
