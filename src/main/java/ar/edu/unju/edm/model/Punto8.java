@@ -3,7 +3,7 @@ package ar.edu.unju.edm.model;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Punto8 {
+public class Punto8 { // hacer para cualquier numero no solo 4
 
 	private int ocup;
 	public Punto8() {

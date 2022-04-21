@@ -19,7 +19,7 @@ public class Punto2 {
 	// un año es bisiesto si es multiplo de 4 
 	//los multiplos de 100 no son bisiestos, salvo que sean multiplos de 400
 	// por ej 2000 si es bisiesto, pero 1800 no
-	public boolean IsLeapYear() {
+	public boolean IsLeapYear() { //esbuena practica devolver un solo retorno, pq sigue evaluando
 		
 		boolean leap;
 		if (year%4 == 0)

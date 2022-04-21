@@ -11,6 +11,21 @@ import ar.edu.unju.edm.model.Punto2;
 public class Punto2Controller {
 	
 @GetMapping("/resolverPunto2")
+
+
+/*public ModelAndView getPunto2Page( @RequestParam (name = "yy") int yy, Model model ) { //para hacer con model and view
+ String resultado B="";
+ ModelAndView anahi; //permite enviar un paquete como objeto
+ nuevoBisiesto.setAnio(num);
+ resultadoB = nuevoBisiesto.calcularBisiesto();
+ ModelAndView anahi=new ModelAndView("resultadoBisiesto")
+ 
+ 
+ 
+ }
+
+ 
+ */
 	public String getPunto2Page( @RequestParam (name = "yy") int yy, Model model ) {
 		boolean result;
 		String whatis;
